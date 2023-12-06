@@ -25,7 +25,7 @@ public class undead implements character{
     public void characterinfomation(String name,String gender){
         this.name=name;
         this.gender=gender;
-    };//เป็นfunctionที่รับinputเป็นชื่อและเพศ โดยเอาไว้เซ็ทค่าnameและgenderเฉย จะไม่มีoutputออกมา
+    }//เป็นfunctionที่รับinputเป็นชื่อและเพศ โดยเอาไว้เซ็ทค่าnameและgenderเฉย จะไม่มีoutputออกมา
 
     /* Printed statistics and information about a character, including name,
     * gender, tribe, level, attack, defence, health, mana, movement speed and
@@ -47,7 +47,7 @@ public class undead implements character{
         } else {
             System.out.println("Your hand is empty. Equip a weapon!");
         }
-    };//เป็นfunctionที่ไม่มีinput output เอาไว้printค่าstatusตัวละคร
+    }//เป็นfunctionที่ไม่มีinput output เอาไว้printค่าstatusตัวละคร
 
     /* Initializes the statistics of a character to default values for a Undead tribe.
     *
@@ -63,13 +63,13 @@ public class undead implements character{
         mana = 30;
         charmana=30;
         movement_speed = 15;
-    };//เป็นfunctionที่ไม่มีinput output เอาไว้setค่าstatusเริ่มต้น
+    }//เป็นfunctionที่ไม่มีinput output เอาไว้setค่าstatusเริ่มต้น
 
     /* Display skill of human tribe. */
     @Override
     public void skill(){
         System.out.println("Necrotic Touch : Inflicts a curse on enemies,causing damage over time and weakening their abilities ");
-    };//เป็นfunctionที่ไม่มีinput output เอาไว้print skillของตัวละครแต่ละเผ่า
+    }//เป็นfunctionที่ไม่มีinput output เอาไว้print skillของตัวละครแต่ละเผ่า
 
     /* Update the statistics of a character when they level up.
     *
@@ -87,7 +87,7 @@ public class undead implements character{
         movement_speed += (0.1+0.03*level);
         level++;
         System.out.println("Level up +++");
-    };//เป็นfunctionที่ไม่มีinput output เอาไว้เปลี่ยนstatusตอนlevel up
+    }//เป็นfunctionที่ไม่มีinput output เอาไว้เปลี่ยนstatusตอนlevel up
 
     /* Check if character has already equipped a weapon (allow only one weapon) by taking a sword object 'a' as a parameter.
     * If the character does not have a weapon, gets the attack stat from the sword, updates the character's attack statistics,

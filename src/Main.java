@@ -40,13 +40,13 @@ public class Main {
         System.out.println("\nStats for Undead after equipping ward:");
         undeadCharacter.getstat();
 
-        // Unequip accessories
+        // Unequipped accessories
         humanCharacter.unequip();
         undeadCharacter.unequip();
         humanCharacter.unequip();
         undeadCharacter.unequip();
 
-        // Display stats after unequipping accessories
+        // Display stats after unequipped accessories
         System.out.println("\nStats for Human after unequipping:");
         humanCharacter.getstat();
         System.out.println("\nStats for Undead after unequipping:");
